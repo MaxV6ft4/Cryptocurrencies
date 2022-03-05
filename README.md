@@ -1,1 +1,4 @@
-# Cryptocurrencies
+# Unsupervised Machine Learning With Cryptocurrencies
+
+## Summary
+In this project I used unsupervised learning to determine which cryptocurrencies on the market are currently tradable in order to help the investment bank put together a new cryptocurrency portfolio for its clients.  After preprocessing the data, I first used Principal Component Analysis (PCA) to reduce the total number of dimensions to just three principcal components, then created a new dataframe with the results.  Then I used the K-Means algorithm to determine the number of clusters to create, after which I made predictions of the clusters before concatenating the original crypto dataframe with the dataframe containing the values of the three principal components.  Finally I created a 3D scatter plot displaying the new dataframe's three clusters, as well as a 2D scatter plot of the total number of coins mined for each cryptocurrency by its total supply.  I discovered that there are currently 533 tradable cryptocurrencies on the market.
